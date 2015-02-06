@@ -1,5 +1,5 @@
 <cfscript>
-	include = 'tags.cfm';
+	include 'tags.cfm';
 	theFile = expandPath('./images/recognizedFaces/face-0-20150128232309.jpg');
 	objBinaryData = fileReadBinary(theFile);
 	imageBase64 = ToBase64(objBinaryData);

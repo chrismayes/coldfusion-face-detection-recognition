@@ -1,5 +1,5 @@
 <cfscript>
-	include = 'tags.cfm';
+	include 'tags.cfm';
 	
 	//Image upload form
 	if(!isDefined('form.imageFile')) {
